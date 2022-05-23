@@ -24,3 +24,9 @@
 {
     background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
 }
+
+.background 
+{
+    background: url("Spider.jpeg");
+    background-position: center;
+}
