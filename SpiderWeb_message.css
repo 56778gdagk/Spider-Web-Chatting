@@ -1,0 +1,30 @@
+.background 
+{
+    background: url("Spider.jpeg");
+    background-position: center;
+}
+
+#log{
+    float: left;
+}
+
+h1{
+    color: whitesmoke;
+    font-family:fantasy;
+}
+
+#message{
+    width: 500px;
+    margin-top: 350px;
+}
+
+#sending{
+   margin: 5px;
+}
+
+#hi{
+    background: rgba(255,255,255,0.8);
+    float: none;
+    border-radius: 15px;
+    width: 50%;
+}

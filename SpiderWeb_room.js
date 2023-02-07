@@ -30,6 +30,11 @@ var firebaseConfig = {
    
          window.location = "SpiderWeb_room.html";
    }
+
+   function logout()
+   {
+      window.location = "index.html";
+   }
    
    
    user_name = localStorage.getItem("user_name");
@@ -46,7 +51,7 @@ var firebaseConfig = {
    
          localStorage.setItem("Room_names", Room_names);
    
-         window.location = "SpiderWeb_room.html";
+         window.location = "SpiderWeb_message.html";
    }
    
 

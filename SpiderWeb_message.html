@@ -1,0 +1,40 @@
+<html>
+
+    <head>
+
+        <title> Message Room</title>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="SpiderWeb_message.css">
+        <script src="SpiderWeb_message.js"></script>
+
+    </head>
+
+    <body class="background">
+
+        <center>
+
+            <h1>SpiderWeb Message Room</h1>
+
+            <button id="log" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <div id="hi">
+                <input id="message" placeholder="  Type Your Message Here">
+
+                <br>
+
+                <button id="sending" onclick="send()" class="glyphicon glyphicon-send btn btn-success">Send</button>
+
+            </div>
+        </center>
+
+    </body>
+
+</html>
